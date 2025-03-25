@@ -46,7 +46,7 @@ The widely used datasets for self supervised single image denoising task is PSNR
 |Positive2Negative| 2025|CVPR |[official code](https://github.com/Li-Tong-621/P2N/)|-|
 |DMID| 2024|TPAMI |[official code](https://github.com/Li-Tong-621/DMID/)|-|
 |MASH|2024| CVPR|[official code](https://github.com/hamadichihaoui/mash)| You can also directly download our reproduced images from [here].|
-|ZS-N2N| 2023 |CVPR |[official code](https://colab.research.google.com/drive/1i82nyizTdszyHkaHBuKPbWnTzao8HF9b) or [our reproduced code]| The official code is notebook, which is not very user-friendly. We have provided a more user-friendly version.|
+|ZS-N2N| 2023 |CVPR |[official code](https://colab.research.google.com/drive/1i82nyizTdszyHkaHBuKPbWnTzao8HF9b) or [our reproduced code](https://github.com/Li-Tong-621/ZS-N2N)| The official code is notebook, which is not very user-friendly. We have provided a more user-friendly version.|
 |ScoreDVI| 2023| ICCV |[official code](https://github.com/alwaysuu/ScoreDVI/)| You can also directly download our reproduced images from [here].|
 |R2R| 2021| CVPR |[official code](https://github.com/PangTongyao/Recorrupted-to-Recorrupted-Unsupervised-Deep-Learning-for-Image-Denoising/) or [our reproduced code]| The official code did not provide the real-wolrd image denoising part, so we reproduced the code for real-wolrd image denoising according to the original paper.|
 |Self2Self| 2020 |CVPR |[official code](https://github.com/scut-mingqinchen/self2self/)|-|
