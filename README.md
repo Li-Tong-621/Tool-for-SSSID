@@ -35,7 +35,7 @@ The widely used datasets for self supervised single image denoising task is PSNR
 >*Positive2Negative fixed this problem and used the PSNR and SSIM calculation method from DnCNN, which is consistent with other self supervised single image denoising methods.*
 <hr />
 
--  🔨 To calculate metrics, we provied the correct [code](https://github.com/Li-Tong-621/Tool-for-SSSID/cal_metrics.py), which you should change the root.
+-  🔨 To calculate metrics, we provied the correct [code](https://github.com/Li-Tong-621/Tool-for-SSSID/cal_metrics.py), which you should change the data path.
 
 
 
