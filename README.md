@@ -16,7 +16,7 @@ If you find this repo useful, please give it a star ⭐ and consider citing our 
 
 The widely used datasets for self supervised single image denoising task is CC, PolyU, FMDD and SIDD.
 
-CC, PolyU and FMDD can directly download from [DMID code]([https://github.com/Li-Tong-621/DMID/releases/tag/v1.0](https://github.com/Li-Tong-621/DMID/releases/tag/v1.0)  
+CC, PolyU and FMDD can directly download from [DMID code](https://github.com/Li-Tong-621/DMID/releases/tag/v1.0)
 
 ## 2. :ocean: Evaluation
 
