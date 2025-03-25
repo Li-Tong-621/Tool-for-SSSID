@@ -1,5 +1,5 @@
 # Tool-for-SSSID
-Tools and code for self supervised single image denoising.
+Tools, codes and collections for self supervised single image denoising.
 
 ## 🚀 News
 
@@ -14,15 +14,60 @@ If you find this repo useful, please give it a star ⭐ and consider citing our 
 
 ## 1. :cloud: Dataset
 
-The widely used datasets for self supervised single image denoising task is CC, PolyU, FMDD and SIDD.
+-  The widely used datasets for self supervised single image denoising task is CC, PolyU, FMDD and SIDD.
+-  You can download CC, PolyU and FMDD from [DMID code](https://github.com/Li-Tong-621/DMID/releases/tag/v1.0)
+-  You can download SIDD from [SIDD website](https://abdokamel.github.io/sidd/) 
 
-CC, PolyU and FMDD can directly download from [DMID code](https://github.com/Li-Tong-621/DMID/releases/tag/v1.0)
+
+
 
 ## 2. :ocean: Evaluation
 
 The widely used datasets for self supervised single image denoising task is PSNR and SSIM.
 
-DMID used the PSNR and SSIM calculation methods from Restormer, which is widely used in supervied image denoising methods. However,  after the publication of DMID, we found that this SSIM calculation method tends to overestimate SSIM values, making it inconsistent with previous self supervised single image denoising methods.
 
-Positive2Negative fixed this problem and used the PSNR and SSIM calculation method from DnCNN, which is consistent with other self supervised single image denoising methods.
+<hr />
 
+>**Explaination:**：
+
+>*DMID used the PSNR and SSIM calculation methods from Restormer, which is widely used in supervied image denoising methods. However,  after the publication of DMID, we found that this SSIM calculation method tends to overestimate SSIM values, making it inconsistent with previous self supervised single image denoising methods.*
+
+>*Positive2Negative fixed this problem and used the PSNR and SSIM calculation method from DnCNN, which is consistent with other self supervised single image denoising methods.*
+<hr />
+
+-  🔨 To calculate metrics, we provied the correct [code](https://github.com/Li-Tong-621/Tool-for-SSSID/cal_metrics.py), which you should change the root.
+
+
+
+## :rose: Citation
+
+
+```
+@inproceedings{DMID,
+  title = {Stimulating the Diffusion Model for Image Denoising via Adaptive Embedding and Ensembling},
+  author = {Li, Tong and Feng, Hansen and Wang, Lizhi and Xiong, Zhiwei and Huang, Hua},
+  booktitle = {IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
+  pages = {8240-8257},
+  year = {2024},
+}
+```
+
+
+```
+@inproceedings{P2N,
+  title = {Positive2Negative: Breaking the Information-Lossy Barrier in Self-Supervised Single Image Denoising},
+  author = {Li, Tong and Wang, Lizhi and Xu, Zhiyuan and Zhu, Lin and Lu, Wanxuan and Huang, Hua},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages = {1-11},
+  year = {2025},
+}
+```
+
+```
+@misc{SSSID,
+  title = {Tools, codes and collections for self supervised single image denoising},
+  author = {Li, Tong},
+  howpublished = {\url{https://github.com/Li-Tong-621/Tool-for-SSSID}},
+  year = {2025}
+}
+```
