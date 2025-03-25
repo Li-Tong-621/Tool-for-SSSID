@@ -41,7 +41,7 @@ The widely used datasets for self supervised single image denoising task is PSNR
 
 ## 3. 🎉 Code and collection
 
-|Name|Publiaction|Code|Notes|
+| Name | Publiaction | Code | Notes |
 |-|-|-|-|
 |Positive2Negative|2025 CVPR|[official code](https://github.com/Li-Tong-621/P2N/)|-|
 |DMID|2024 TPAMI|[official code](https://github.com/Li-Tong-621/DMID/)|-|
