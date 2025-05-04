@@ -1,6 +1,8 @@
 # Tool-for-SSSID
 Tools, codes and collections for self supervised single image denoising.
 
+Self-supervised single image denoising refers to training a denoising model using only a single image. It is also known as test-time training or zero-shot image denoising.
+
 ## 🚀 News
 
 - 2025.3 The first version of the repo is uploaded. 🤩
